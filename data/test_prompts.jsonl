@@ -1,0 +1,10 @@
+{"id":"test_001","category":"python","prompt":"Write a Python function that checks whether a string is a palindrome. Explain the solution."}
+{"id":"test_002","category":"python","prompt":"Explain the difference between a Python list and a tuple with examples."}
+{"id":"test_003","category":"cpp","prompt":"Write a C++ program to perform binary search on a sorted array and explain its time complexity."}
+{"id":"test_004","category":"cpp","prompt":"Explain pointers in C++ and show how to modify a variable using a pointer."}
+{"id":"test_005","category":"java","prompt":"Explain method overloading in Java with a simple example."}
+{"id":"test_006","category":"java","prompt":"Write a Java program to find the largest element in an integer array."}
+{"id":"test_007","category":"sql_dbms","prompt":"Write an SQL query to find employees whose salary is greater than the average salary."}
+{"id":"test_008","category":"sql_dbms","prompt":"Explain the difference between a primary key and a foreign key with an example."}
+{"id":"test_009","category":"dsa","prompt":"Explain BFS and DFS and describe one practical use of each."}
+{"id":"test_010","category":"dsa","prompt":"Explain the time complexity of merge sort and why it is O(n log n)."}

@@ -1,51 +1,14 @@
 import json
 from collections import Counter
-from statistics import mean
 
 FILE = "data/evaluation_results.jsonl"
 
-
-# -----------------------------
-# Load evaluations
-# -----------------------------
-
-evaluations = []
-
 with open(FILE, "r", encoding="utf-8") as file:
-    for line in file:
-        evaluations.append(json.loads(line))
+    evaluations = [
+        json.loads(line)
+        for line in file
+    ]
 
-
-print("=" * 45)
-print("BASE vs SFT EVALUATION")
-print("=" * 45)
-
-print(f"\nTotal evaluations: {len(evaluations)}")
-
-
-# -----------------------------
-# Winner distribution
-# -----------------------------
-
-winners = Counter(
-    item["winner"]
-    for item in evaluations
-)
-
-print("\nWinner distribution:")
-
-for winner, count in winners.items():
-    percentage = (count / len(evaluations)) * 100
-
-    print(
-        f"{winner}: {count} "
-        f"({percentage:.1f}%)"
-    )
-
-
-# -----------------------------
-# Average scores
-# -----------------------------
 
 metrics = [
     "correctness",
@@ -54,40 +17,95 @@ metrics = [
     "instruction_following"
 ]
 
-print("\nAverage scores:")
 
-for metric in metrics:
+print("=" * 50)
+print("BASE MODEL vs SFT MODEL")
+print("=" * 50)
 
-    scores = [
-        item[metric]
-        for item in evaluations
-    ]
+print(f"\nTotal evaluations: {len(evaluations)}")
+
+
+# -----------------------------
+# Calculate average scores
+# -----------------------------
+
+print("\nAverage Scores")
+print("-" * 50)
+
+for model in ["base", "sft"]:
+
+    print(f"\n{model.upper()} MODEL")
+
+    total_score = 0
+
+    for metric in metrics:
+
+        average = sum(
+            item[model][metric]
+            for item in evaluations
+        ) / len(evaluations)
+
+        total_score += average
+
+        print(
+            f"{metric.replace('_', ' ').title():25}: "
+            f"{average:.2f}"
+        )
+
+    overall = total_score / len(metrics)
+
+    print(f"{'Overall Average':25}: {overall:.2f}")
+
+
+# -----------------------------
+# Winner distribution
+# -----------------------------
+
+print("\n\nWinner Distribution")
+print("-" * 50)
+
+winners = Counter(
+    item["winner"]
+    for item in evaluations
+)
+
+for winner, count in winners.items():
+
+    percentage = (
+        count / len(evaluations)
+    ) * 100
 
     print(
-        f"{metric.replace('_', ' ').title()}: "
-        f"{mean(scores):.2f}/5"
+        f"{winner:20}: "
+        f"{count} ({percentage:.1f}%)"
     )
 
 
 # -----------------------------
-# Individual model scores
+# Score differences
 # -----------------------------
 
-# Calculate scores for questions
-# where each model was selected
-# as the winner.
+print("\n\nSFT - Base Score Difference")
+print("-" * 50)
 
-print("\nWinner percentage:")
+for metric in metrics:
 
-total = len(evaluations)
+    base_average = sum(
+        item["base"][metric]
+        for item in evaluations
+    ) / len(evaluations)
 
-base_wins = winners.get("Base Model", 0)
-sft_wins = winners.get("SFT Model", 0)
-similar = winners.get("Both are similar", 0)
+    sft_average = sum(
+        item["sft"][metric]
+        for item in evaluations
+    ) / len(evaluations)
 
-print(f"Base Model: {base_wins / total * 100:.1f}%")
-print(f"SFT Model: {sft_wins / total * 100:.1f}%")
-print(f"Similar: {similar / total * 100:.1f}%")
+    difference = sft_average - base_average
+
+    print(
+        f"{metric.replace('_', ' ').title():25}: "
+        f"{difference:+.2f}"
+    )
 
 
-print("\nAnalysis complete.")
+print("\nAnalysis complete!")

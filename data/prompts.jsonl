@@ -1,0 +1,150 @@
+{"id": "prompt_001", "category": "python", "difficulty": "easy", "prompt": "What is a variable in Python? Explain with a simple example."}
+{"id": "prompt_002", "category": "python", "difficulty": "easy", "prompt": "What is the difference between a list and a tuple in Python?"}
+{"id": "prompt_003", "category": "python", "difficulty": "easy", "prompt": "How do you define a function in Python? Give an example."}
+{"id": "prompt_004", "category": "python", "difficulty": "easy", "prompt": "What is a dictionary in Python? Give a simple example."}
+{"id": "prompt_005", "category": "python", "difficulty": "medium", "prompt": "Explain list comprehension in Python with two examples."}
+{"id": "prompt_006", "category": "python", "difficulty": "medium", "prompt": "What is the difference between shallow copy and deep copy in Python?"}
+{"id": "prompt_007", "category": "python", "difficulty": "medium", "prompt": "Explain exception handling in Python using try and except."}
+{"id": "prompt_008", "category": "python", "difficulty": "medium", "prompt": "What are lambda functions in Python? Give an example."}
+{"id": "prompt_009", "category": "python", "difficulty": "hard", "prompt": "Explain Python decorators with a practical example."}
+{"id": "prompt_010", "category": "python", "difficulty": "hard", "prompt": "Explain generators in Python and compare them with normal functions."}
+{"id": "prompt_011", "category": "cpp", "difficulty": "easy", "prompt": "What is a pointer in C++? Explain with an example."}
+{"id": "prompt_012", "category": "cpp", "difficulty": "easy", "prompt": "What is the difference between an array and a vector in C++?"}
+{"id": "prompt_013", "category": "cpp", "difficulty": "easy", "prompt": "Explain classes and objects in C++ with an example."}
+{"id": "prompt_014", "category": "cpp", "difficulty": "easy", "prompt": "What is a constructor in C++?"}
+{"id": "prompt_015", "category": "cpp", "difficulty": "medium", "prompt": "Explain inheritance in C++ with an example."}
+{"id": "prompt_016", "category": "cpp", "difficulty": "medium", "prompt": "What is function overloading in C++?"}
+{"id": "prompt_017", "category": "cpp", "difficulty": "medium", "prompt": "Explain the difference between stack and heap memory in C++."}
+{"id": "prompt_018", "category": "cpp", "difficulty": "medium", "prompt": "Explain STL vectors in C++ with common operations."}
+{"id": "prompt_019", "category": "cpp", "difficulty": "hard", "prompt": "Explain virtual functions and runtime polymorphism in C++."}
+{"id": "prompt_020", "category": "cpp", "difficulty": "hard", "prompt": "Explain smart pointers in C++ and why they are useful."}
+{"id": "prompt_021", "category": "java", "difficulty": "easy", "prompt": "What is a class in Java? Give an example."}
+{"id": "prompt_022", "category": "java", "difficulty": "easy", "prompt": "What is the difference between == and equals() in Java?"}
+{"id": "prompt_023", "category": "java", "difficulty": "easy", "prompt": "What is a constructor in Java?"}
+{"id": "prompt_024", "category": "java", "difficulty": "easy", "prompt": "Explain the main method in Java."}
+{"id": "prompt_025", "category": "java", "difficulty": "medium", "prompt": "Explain inheritance in Java with an example."}
+{"id": "prompt_026", "category": "java", "difficulty": "medium", "prompt": "What is method overloading in Java?"}
+{"id": "prompt_027", "category": "java", "difficulty": "medium", "prompt": "Explain the difference between ArrayList and LinkedList in Java."}
+{"id": "prompt_028", "category": "java", "difficulty": "medium", "prompt": "What is exception handling in Java?"}
+{"id": "prompt_029", "category": "java", "difficulty": "hard", "prompt": "Explain interfaces and abstract classes in Java."}
+{"id": "prompt_030", "category": "java", "difficulty": "hard", "prompt": "Explain Java multithreading and thread synchronization."}
+{"id": "prompt_031", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is a primary key in a database?"}
+{"id": "prompt_032", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is a foreign key? Give an example."}
+{"id": "prompt_033", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is the difference between DELETE and DROP in SQL?"}
+{"id": "prompt_034", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is a relational database?"}
+{"id": "prompt_035", "category": "sql_dbms", "difficulty": "medium", "prompt": "Explain INNER JOIN with an SQL example."}
+{"id": "prompt_036", "category": "sql_dbms", "difficulty": "medium", "prompt": "What is database normalization? Explain 1NF and 2NF."}
+{"id": "prompt_037", "category": "sql_dbms", "difficulty": "medium", "prompt": "Explain GROUP BY and HAVING in SQL."}
+{"id": "prompt_038", "category": "sql_dbms", "difficulty": "medium", "prompt": "What is the difference between WHERE and HAVING?"}
+{"id": "prompt_039", "category": "sql_dbms", "difficulty": "hard", "prompt": "Explain BCNF with an example."}
+{"id": "prompt_040", "category": "sql_dbms", "difficulty": "hard", "prompt": "Explain database indexing and its advantages and disadvantages."}
+{"id": "prompt_041", "category": "dsa", "difficulty": "easy", "prompt": "What is a stack? Explain its basic operations."}
+{"id": "prompt_042", "category": "dsa", "difficulty": "easy", "prompt": "What is a queue? Explain its basic operations."}
+{"id": "prompt_043", "category": "dsa", "difficulty": "easy", "prompt": "What is the difference between BFS and DFS?"}
+{"id": "prompt_044", "category": "dsa", "difficulty": "easy", "prompt": "What is binary search?"}
+{"id": "prompt_045", "category": "dsa", "difficulty": "medium", "prompt": "Explain binary search with C++ code."}
+{"id": "prompt_046", "category": "dsa", "difficulty": "medium", "prompt": "Explain merge sort and its time complexity."}
+{"id": "prompt_047", "category": "dsa", "difficulty": "medium", "prompt": "Explain quicksort and its average time complexity."}
+{"id": "prompt_048", "category": "dsa", "difficulty": "medium", "prompt": "What is a binary search tree?"}
+{"id": "prompt_049", "category": "dsa", "difficulty": "hard", "prompt": "Explain Dijkstra's shortest path algorithm."}
+{"id": "prompt_050", "category": "dsa", "difficulty": "hard", "prompt": "Explain dynamic programming with a suitable example."}
+{"id": "prompt_051", "category": "python", "difficulty": "easy", "prompt": "What is a variable in Python? Explain with a simple example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_052", "category": "python", "difficulty": "easy", "prompt": "What is the difference between a list and a tuple in Python? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_053", "category": "python", "difficulty": "easy", "prompt": "How do you define a function in Python? Give an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_054", "category": "python", "difficulty": "easy", "prompt": "What is a dictionary in Python? Give a simple example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_055", "category": "python", "difficulty": "medium", "prompt": "Explain list comprehension in Python with two examples. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_056", "category": "python", "difficulty": "medium", "prompt": "What is the difference between shallow copy and deep copy in Python? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_057", "category": "python", "difficulty": "medium", "prompt": "Explain exception handling in Python using try and except. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_058", "category": "python", "difficulty": "medium", "prompt": "What are lambda functions in Python? Give an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_059", "category": "python", "difficulty": "hard", "prompt": "Explain Python decorators with a practical example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_060", "category": "python", "difficulty": "hard", "prompt": "Explain generators in Python and compare them with normal functions. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_061", "category": "cpp", "difficulty": "easy", "prompt": "What is a pointer in C++? Explain with an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_062", "category": "cpp", "difficulty": "easy", "prompt": "What is the difference between an array and a vector in C++? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_063", "category": "cpp", "difficulty": "easy", "prompt": "Explain classes and objects in C++ with an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_064", "category": "cpp", "difficulty": "easy", "prompt": "What is a constructor in C++? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_065", "category": "cpp", "difficulty": "medium", "prompt": "Explain inheritance in C++ with an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_066", "category": "cpp", "difficulty": "medium", "prompt": "What is function overloading in C++? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_067", "category": "cpp", "difficulty": "medium", "prompt": "Explain the difference between stack and heap memory in C++. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_068", "category": "cpp", "difficulty": "medium", "prompt": "Explain STL vectors in C++ with common operations. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_069", "category": "cpp", "difficulty": "hard", "prompt": "Explain virtual functions and runtime polymorphism in C++. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_070", "category": "cpp", "difficulty": "hard", "prompt": "Explain smart pointers in C++ and why they are useful. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_071", "category": "java", "difficulty": "easy", "prompt": "What is a class in Java? Give an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_072", "category": "java", "difficulty": "easy", "prompt": "What is the difference between == and equals() in Java? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_073", "category": "java", "difficulty": "easy", "prompt": "What is a constructor in Java? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_074", "category": "java", "difficulty": "easy", "prompt": "Explain the main method in Java. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_075", "category": "java", "difficulty": "medium", "prompt": "Explain inheritance in Java with an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_076", "category": "java", "difficulty": "medium", "prompt": "What is method overloading in Java? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_077", "category": "java", "difficulty": "medium", "prompt": "Explain the difference between ArrayList and LinkedList in Java. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_078", "category": "java", "difficulty": "medium", "prompt": "What is exception handling in Java? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_079", "category": "java", "difficulty": "hard", "prompt": "Explain interfaces and abstract classes in Java. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_080", "category": "java", "difficulty": "hard", "prompt": "Explain Java multithreading and thread synchronization. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_081", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is a primary key in a database? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_082", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is a foreign key? Give an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_083", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is the difference between DELETE and DROP in SQL? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_084", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is a relational database? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_085", "category": "sql_dbms", "difficulty": "medium", "prompt": "Explain INNER JOIN with an SQL example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_086", "category": "sql_dbms", "difficulty": "medium", "prompt": "What is database normalization? Explain 1NF and 2NF. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_087", "category": "sql_dbms", "difficulty": "medium", "prompt": "Explain GROUP BY and HAVING in SQL. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_088", "category": "sql_dbms", "difficulty": "medium", "prompt": "What is the difference between WHERE and HAVING? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_089", "category": "sql_dbms", "difficulty": "hard", "prompt": "Explain BCNF with an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_090", "category": "sql_dbms", "difficulty": "hard", "prompt": "Explain database indexing and its advantages and disadvantages. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_091", "category": "dsa", "difficulty": "easy", "prompt": "What is a stack? Explain its basic operations. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_092", "category": "dsa", "difficulty": "easy", "prompt": "What is a queue? Explain its basic operations. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_093", "category": "dsa", "difficulty": "easy", "prompt": "What is the difference between BFS and DFS? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_094", "category": "dsa", "difficulty": "easy", "prompt": "What is binary search? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_095", "category": "dsa", "difficulty": "medium", "prompt": "Explain binary search with C++ code. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_096", "category": "dsa", "difficulty": "medium", "prompt": "Explain merge sort and its time complexity. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_097", "category": "dsa", "difficulty": "medium", "prompt": "Explain quicksort and its average time complexity. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_098", "category": "dsa", "difficulty": "medium", "prompt": "What is a binary search tree? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_099", "category": "dsa", "difficulty": "hard", "prompt": "Explain Dijkstra's shortest path algorithm. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_100", "category": "dsa", "difficulty": "hard", "prompt": "Explain dynamic programming with a suitable example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_101", "category": "python", "difficulty": "easy", "prompt": "What is a variable in Python? Explain with a simple example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_102", "category": "python", "difficulty": "easy", "prompt": "What is the difference between a list and a tuple in Python? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_103", "category": "python", "difficulty": "easy", "prompt": "How do you define a function in Python? Give an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_104", "category": "python", "difficulty": "easy", "prompt": "What is a dictionary in Python? Give a simple example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_105", "category": "python", "difficulty": "medium", "prompt": "Explain list comprehension in Python with two examples. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_106", "category": "python", "difficulty": "medium", "prompt": "What is the difference between shallow copy and deep copy in Python? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_107", "category": "python", "difficulty": "medium", "prompt": "Explain exception handling in Python using try and except. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_108", "category": "python", "difficulty": "medium", "prompt": "What are lambda functions in Python? Give an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_109", "category": "python", "difficulty": "hard", "prompt": "Explain Python decorators with a practical example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_110", "category": "python", "difficulty": "hard", "prompt": "Explain generators in Python and compare them with normal functions. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_111", "category": "cpp", "difficulty": "easy", "prompt": "What is a pointer in C++? Explain with an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_112", "category": "cpp", "difficulty": "easy", "prompt": "What is the difference between an array and a vector in C++? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_113", "category": "cpp", "difficulty": "easy", "prompt": "Explain classes and objects in C++ with an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_114", "category": "cpp", "difficulty": "easy", "prompt": "What is a constructor in C++? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_115", "category": "cpp", "difficulty": "medium", "prompt": "Explain inheritance in C++ with an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_116", "category": "cpp", "difficulty": "medium", "prompt": "What is function overloading in C++? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_117", "category": "cpp", "difficulty": "medium", "prompt": "Explain the difference between stack and heap memory in C++. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_118", "category": "cpp", "difficulty": "medium", "prompt": "Explain STL vectors in C++ with common operations. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_119", "category": "cpp", "difficulty": "hard", "prompt": "Explain virtual functions and runtime polymorphism in C++. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_120", "category": "cpp", "difficulty": "hard", "prompt": "Explain smart pointers in C++ and why they are useful. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_121", "category": "java", "difficulty": "easy", "prompt": "What is a class in Java? Give an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_122", "category": "java", "difficulty": "easy", "prompt": "What is the difference between == and equals() in Java? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_123", "category": "java", "difficulty": "easy", "prompt": "What is a constructor in Java? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_124", "category": "java", "difficulty": "easy", "prompt": "Explain the main method in Java. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_125", "category": "java", "difficulty": "medium", "prompt": "Explain inheritance in Java with an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_126", "category": "java", "difficulty": "medium", "prompt": "What is method overloading in Java? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_127", "category": "java", "difficulty": "medium", "prompt": "Explain the difference between ArrayList and LinkedList in Java. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_128", "category": "java", "difficulty": "medium", "prompt": "What is exception handling in Java? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_129", "category": "java", "difficulty": "hard", "prompt": "Explain interfaces and abstract classes in Java. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_130", "category": "java", "difficulty": "hard", "prompt": "Explain Java multithreading and thread synchronization. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_131", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is a primary key in a database? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_132", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is a foreign key? Give an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_133", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is the difference between DELETE and DROP in SQL? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_134", "category": "sql_dbms", "difficulty": "easy", "prompt": "What is a relational database? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_135", "category": "sql_dbms", "difficulty": "medium", "prompt": "Explain INNER JOIN with an SQL example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_136", "category": "sql_dbms", "difficulty": "medium", "prompt": "What is database normalization? Explain 1NF and 2NF. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_137", "category": "sql_dbms", "difficulty": "medium", "prompt": "Explain GROUP BY and HAVING in SQL. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_138", "category": "sql_dbms", "difficulty": "medium", "prompt": "What is the difference between WHERE and HAVING? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_139", "category": "sql_dbms", "difficulty": "hard", "prompt": "Explain BCNF with an example. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_140", "category": "sql_dbms", "difficulty": "hard", "prompt": "Explain database indexing and its advantages and disadvantages. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_141", "category": "dsa", "difficulty": "easy", "prompt": "What is a stack? Explain its basic operations. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_142", "category": "dsa", "difficulty": "easy", "prompt": "What is a queue? Explain its basic operations. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_143", "category": "dsa", "difficulty": "easy", "prompt": "What is the difference between BFS and DFS? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_144", "category": "dsa", "difficulty": "easy", "prompt": "What is binary search? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_145", "category": "dsa", "difficulty": "medium", "prompt": "Explain binary search with C++ code. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_146", "category": "dsa", "difficulty": "medium", "prompt": "Explain merge sort and its time complexity. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_147", "category": "dsa", "difficulty": "medium", "prompt": "Explain quicksort and its average time complexity. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_148", "category": "dsa", "difficulty": "medium", "prompt": "What is a binary search tree? Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_149", "category": "dsa", "difficulty": "hard", "prompt": "Explain Dijkstra's shortest path algorithm. Provide a clear explanation suitable for a beginner."}
+{"id": "prompt_150", "category": "dsa", "difficulty": "hard", "prompt": "Explain dynamic programming with a suitable example. Provide a clear explanation suitable for a beginner."}

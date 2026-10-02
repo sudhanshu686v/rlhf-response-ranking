@@ -69,7 +69,7 @@ sql_prompts = [
 
 # -------------------------
 # DSA prompts
-# -------------------------
+# ------------------------- 
 dsa_prompts = [
     ("easy", "What is a stack? Explain its basic operations."),
     ("easy", "What is a queue? Explain its basic operations."),
