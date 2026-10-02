@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .env
 models/
+
+data/responses.jsonl
+data/base_results.jsonl
+data/preferences.jsonl
+data/sft_results.jsonl
